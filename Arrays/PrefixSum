@@ -1,0 +1,74 @@
+/*
+=========================================
+PREFIX SUM
+=========================================
+
+Definition:
+Prefix Sum stores the cumulative sum of elements
+from index 0 to index i.
+
+Formula:
+
+prefix[i] = prefix[i - 1] + nums[i]
+
+Example:
+
+nums   = [1, 2, 3, 4]
+prefix = [1, 3, 6, 10]
+
+Explanation:
+
+prefix[0] = 1
+prefix[1] = 1 + 2 = 3
+prefix[2] = 3 + 3 = 6
+prefix[3] = 6 + 4 = 10
+
+-----------------------------------------
+Applications
+-----------------------------------------
+
+1. Running Sum of 1D Array
+2. Range Sum Query
+3. Pivot Index
+4. Subarray Sum Problems
+5. Sliding Window Optimization
+
+-----------------------------------------
+Time Complexity
+-----------------------------------------
+
+Building Prefix Sum Array:
+O(n)
+
+Range Sum Query:
+O(1)
+
+Space Complexity:
+O(n)
+
+-----------------------------------------
+Example Code
+-----------------------------------------
+*/
+
+public class PrefixSum {
+
+    public static void main(String[] args) {
+
+        int[] nums = {1, 2, 3, 4};
+
+        int[] prefix = new int[nums.length];
+
+        prefix[0] = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            prefix[i] = prefix[i - 1] + nums[i];
+        }
+
+        System.out.print("Prefix Sum Array: ");
+
+        for (int num : prefix) {
+            System.out.print(num + " ");
+        }
+    }
+}
