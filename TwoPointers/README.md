@@ -70,13 +70,7 @@ Example:
 
 ---
 
-##  Problems Solved
 
-| # | Problem | Difficulty | Pattern |
-|---|---------|------------|---------|
-| 1 | *(Coming Soon)* | - | - |
-
----
 
 ##  Key Takeaways
 
