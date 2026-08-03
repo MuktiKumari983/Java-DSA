@@ -5,8 +5,6 @@ The Sliding Window technique is used to solve problems involving contiguous suba
 ---
 
 
----
-
 ##  Types
 
 ### 1. Fixed Size Sliding Window
@@ -27,7 +25,7 @@ Example:
 
 ---
 
-## ⏱ Complexity
+##  Complexity
 
 - Time: O(n)
 - Space: O(1) / O(k)
