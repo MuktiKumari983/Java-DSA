@@ -1,0 +1,26 @@
+# Hashing
+
+Hashing is a technique used to store and retrieve data efficiently using
+**HashMap, HashSet, and frequency counting**.
+
+It is especially useful when a problem asks for:
+
+- Fast lookup
+- Frequency/counting
+- Duplicate detection
+- Finding pairs or groups
+- Checking whether an element exists
+- Tracking previously seen elements
+- Mapping one value to another
+
+---
+
+## 📌 Folder Structure
+
+```text
+Hashing/
+├── README.md
+├── Hashing.java
+├── TwoSum.java
+├── ContainsDuplicate.java
+├── ...
