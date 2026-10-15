@@ -27,7 +27,7 @@ Instead of repeatedly searching through an array or string, hashing allows us to
 - Store the frequency of each element.
 - Useful for counting numbers or characters.
 
-Example:
+Example
 
 - Valid Anagram
 - Top K Frequent Elements
