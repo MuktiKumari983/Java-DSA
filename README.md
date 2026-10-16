@@ -12,6 +12,7 @@ This repository contains my Data Structures and Algorithms practice in Java.
 - Trees
 - Graphs
 - Dynamic Programming
+- Hashing
 
 ## Goal
 
